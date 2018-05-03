@@ -1,0 +1,260 @@
+input {
+  border: 1px solid #ddd;
+}
+
+.main {
+  margin-bottom: 20px;
+}
+
+.recruit-list li div {
+  width: 33%;
+  float: left;
+  color: #555656;
+}
+
+.recruit-list {
+  border: 1px solid #CBCCCD;
+  overflow: hidden;
+  animation: third 2s;
+  -moz-animation: third 2s;
+  /* Firefox */
+  -webkit-animation: third 2s;
+  /* Safari 和 Chrome */
+  -o-animation: third 2s;
+  /* Opera */
+}
+@keyframes third {
+  from {
+    position: relative;
+    bottom: -100px;
+  }
+
+  to {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.recruit-list li:last-child {
+  border-bottom: none;
+}
+
+.recruit-list li {
+  border-bottom: 1px solid #CBCCCD;
+  height: 35px;
+  line-height: 35px;
+}
+
+.recruit-list li div {
+  font-size: 14px;
+}
+
+.department {
+  text-align: center;
+}
+
+.post {
+  padding-left: 30px;
+}
+
+.recruit-list li .time {
+  text-align: center;
+}
+
+.job-box {
+  width: 565px;
+  margin: 60px auto;
+  overflow: hidden;
+}
+
+.search1 {
+  color: #fff;
+  background-color: #00ac43;
+  display: inline-block;
+  text-align: center;
+}
+
+#job {
+  margin-right: 10px;
+  color: #767779;
+  animation: first 2s;
+  -moz-animation: first 2s;
+  /* Firefox */
+  -webkit-animation: first 2s;
+  /* Safari 和 Chrome */
+  -o-animation: first 2s;
+  /* Opera */
+}
+@keyframes first {
+  from {
+    position: relative;
+    left: -50px;
+  }
+
+  to {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.recruit {
+  width: 1220px;
+  margin: 20px auto;
+  padding-bottom: 55px;
+}
+
+#job {
+  margin-left: 50px;
+}
+
+.search1 {
+  animation: second 2s;
+  -moz-animation: second 2s;
+  /* Firefox */
+  -webkit-animation: second 2s;
+  /* Safari 和 Chrome */
+  -o-animation: second 2s;
+  /* Opera */
+}
+@keyframes second {
+  from {
+    position: relative;
+    right: -50px;
+  }
+
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .recruit {
+    width: 1220px;
+  }
+
+  #job,
+  .search1 {
+    width: 144px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .input {
+    width: 138px;
+    height: 34px;
+    font-size: 14px;
+    padding-left: 8px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .recruit {
+    width: 1067.5px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .recruit {
+    width: 1016px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .recruit {
+    width: 915px;
+  }
+
+  #job,
+  .search1 {
+    width: 108px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    float: left;
+  }
+
+  .input {
+    width: 102px;
+    height: 34px;
+    font-size: 14px;
+    padding-left: 8px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .job-box {
+    width: 449px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .recruit {
+    width: 868px;
+  }
+
+  .job-box {
+    width: 449px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .recruit {
+    width: 650px;
+  }
+
+  .job-box {
+    width: 449px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recruit {
+    width: 90%;
+  }
+
+  .job-box {
+    width: 100%;
+  }
+
+  #job {
+    margin-left: 0;
+  }
+
+  #job,
+  .input,
+  .search1 {
+    width: 30.2%;
+  }
+
+  .recruit-list li div:nth-child(1) {
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .recruit-list li div:nth-child(2) {
+    width: 30%;
+  }
+
+  .recruit-list li div:nth-child(3) {
+    width: 30%;
+  }
+
+  .post {
+    padding-left: 10px;
+  }
+
+  .recruit-list li div {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #job,
+  .input,
+  .search1 {
+    width: 29.7%;
+    font-size: 12px;
+  }
+}

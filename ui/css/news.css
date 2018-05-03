@@ -1,0 +1,306 @@
+.new-list {
+  margin-top: 35px;
+  margin-bottom: 80px;
+}
+
+.more {
+  width: 100%;
+  display: block;
+}
+
+.more:hover {
+  color: #00ac43;
+}
+
+.new-list .content {
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65.5%;
+}
+
+.new-list li {
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 2px dotted #ddd;
+  margin-bottom: 25px;
+}
+
+.new-list li .img-new {
+  animation: first 2s;
+  -moz-animation: first 2s;
+  /* Firefox */
+  -webkit-animation: first 2s;
+  /* Safari 和 Chrome */
+  -o-animation: first 2s;
+  /* Opera */
+}
+@keyframes first {
+  from {
+    position: relative;
+    left: -100px;
+  }
+
+  to {
+    position: relative;
+    left: 0;
+  }
+}
+
+.new-list li .content {
+  animation: second 2s;
+  -moz-animation: second 2s;
+  /* Firefox */
+  -webkit-animation: second 2s;
+  /* Safari 和 Chrome */
+  -o-animation: second 2s;
+  /* Opera */
+}
+@keyframes second {
+  from {
+    position: absolute;
+    right: -100px;
+  }
+
+  to {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.new-list li .title7 {
+  font-size: 20px;
+  color: #4e4e4e;
+}
+
+.new-list li .detile {
+  font-size: 16px;
+  line-height: 26px;
+  color: #9e9e9e;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+.new-list li .detile:hover {
+  color: #00ac43;
+}
+
+.more,
+.new-list li .time {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+.more {
+  text-align: right;
+}
+@media screen and (max-width: 1920px) {
+  .news {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .new-list li .title7 {
+    margin-bottom: 10px;
+  }
+
+  .new-list li img {
+    width: 388px;
+    height: 258px;
+  }
+
+  .more,
+  .new-list li .time {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .news {
+    width: 1067.5px;
+    margin: auto;
+  }
+
+  .new-list .content {
+    width: 65.5%;
+  }
+
+  .new-list li .title7 {
+    font-size: 18px;
+    margin-top: 9px;
+  }
+
+  .more,
+  .new-list li .time {
+    font-size: 14px;
+    margin-top: 9px;
+  }
+
+  .new-list li .detile {
+    font-size: 16px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+  }
+
+  .new-list li img {
+    width: 340px;
+    height: 225px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .news {
+    width: 1016px;
+    margin: auto;
+  }
+
+  .new-list li .title7 {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+
+  .more,
+  .new-list li .time {
+    font-size: 14px;
+    margin-top: 9px;
+  }
+
+  .new-list li .detile {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .new-list .content {
+    width: 66%;
+  }
+
+  .new-list li img {
+    width: 323px;
+    height: 215px;
+  }
+
+  .new-list li .detile {
+    font-size: 14px;
+    color: #9e9e9e;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .news {
+    width: 915px;
+    margin: auto;
+  }
+
+  .new-list li img {
+    width: 290px;
+    height: 194px;
+  }
+
+  .new-list li .title7 {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  .more,
+  .new-list li .time {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .new-list li .detile {
+    font-size: 14px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .news {
+    width: 868px;
+    margin: auto;
+  }
+
+  .new-list .content {
+    width: 63.5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .news {
+    width: 650px;
+    margin: auto;
+  }
+
+  .new-list .content {
+    width: 64.5%;
+  }
+
+  .new-list li .detile {
+    margin-top: 5px;
+  }
+
+  .more,
+  .new-list li .time {
+    margin-top: 5px;
+  }
+
+  .new-list li .title7 {
+    margin-top: 4px;
+  }
+
+  .new-list li img {
+    width: 207px;
+    height: 137.6px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .new-list {
+    margin-bottom: 30px;
+  }
+
+  .new-list li img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .new-list .content {
+    width: 100%;
+    position: relative;
+    top: auto;
+  }
+
+  .new-list li {
+    overflow: hidden;
+  }
+
+  #pagination {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  @keyframes second {
+    from {
+      position: relative;
+      right: -100px;
+    }
+
+    to {
+      position: relative;
+      right: 0;
+    }
+  }
+}

@@ -1,0 +1,231 @@
+.main {
+  margin-bottom: 20px;
+}
+
+#allmap {
+  margin-top: 50px;
+  width: 600px;
+  height: 300px;
+  float: right;
+  animation: second 2s;
+  -moz-animation: second 2s;
+  /* Firefox */
+  -webkit-animation: second 2s;
+  /* Safari 和 Chrome */
+  -o-animation: second 2s;
+  /* Opera */
+}
+@keyframes second {
+  from {
+    position: relative;
+    right: -100px;
+  }
+
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+
+#allmap .BMapLabel {
+  border: 1px solid #666 !important;
+}
+
+.main .line {
+  border-bottom: 1px solid #E9E9EA;
+  margin-top: 60px;
+}
+
+.cooperation1 {
+  overflow: hidden;
+}
+
+.info p {
+  color: #757677;
+  line-height: 24px;
+}
+
+.info .info-title {
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.info {
+  margin-top: 50px;
+  display: inline-block;
+  animation: first 2s;
+  -moz-animation: first 2s;
+  /* Firefox */
+  -webkit-animation: first 2s;
+  /* Safari 和 Chrome */
+  -o-animation: first 2s;
+  /* Opera */
+}
+@keyframes first {
+  from {
+    position: relative;
+    left: -100px;
+  }
+
+  to {
+    position: relative;
+    left: 0;
+  }
+}
+
+.cooperation-list li {
+  float: left;
+  border: 1px solid #DDDEDF;
+  margin-right: 10px;
+  width: 24%;
+  margin-bottom: 20px;
+}
+
+.cooperation-list li:hover {
+  -webkit-transform: scale(1.05);
+  transition: 0.4s ease;
+}
+
+.cooperation-list li img {
+  width: 100%;
+}
+
+.cooperation-list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.cooperation-list {
+  margin-top: 50px;
+  height: 400px;
+}
+
+.cooperation,
+.cooperation1 {
+  width: 1220px;
+  margin: auto;
+}
+@media screen and (max-width: 1920px) {
+  .info .info-title {
+    font-size: 26px;
+  }
+
+  .info p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .cooperation,
+  .cooperation1 {
+    width: 1067.5px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .cooperation,
+  .cooperation1 {
+    width: 1016px;
+  }
+
+  .info .info-title {
+    font-size: 24px;
+  }
+
+  .info p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #allmap {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .cooperation,
+  .cooperation1 {
+    width: 915px;
+    margin: auto;
+  }
+
+  .info .info-title {
+    font-size: 22px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .cooperation,
+  .cooperation1 {
+    width: 868px;
+  }
+
+  .info .info-title {
+    font-size: 22px;
+  }
+
+  .info p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  #allmap {
+    width: 426px;
+    height: 215px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cooperation,
+  .cooperation1 {
+    width: 650px;
+  }
+
+  .info .info-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .info p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  #allmap {
+    width: 320px;
+    height: 180px;
+  }
+
+  .cooperation-list li {
+    width: 23.8%;
+  }
+}
+@media screen and (max-width:768px) {
+  .cooperation,
+  .cooperation1 {
+    width: 90%;
+  }
+
+  .info {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .cooperation-list {
+    margin-top: 30px;
+  }
+
+  #allmap {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .cooperation-list li {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  .cooperation-list li:nth-child(2n) {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,248 @@
+.main {
+  margin-bottom: 100px;
+  overflow: visible;
+}
+
+.bdshare-button-style0-16 {
+  width: 138px;
+  display: inline-block;
+  position: relative;
+  top: 23px;
+  left: 6px;
+}
+
+.details-title {
+  color: #7E7F80;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 35px;
+  animation: first 2s;
+  -moz-animation: first 2s;
+  /* Firefox */
+  -webkit-animation: first 2s;
+  /* Safari 和 Chrome */
+  -o-animation: first 2s;
+  /* Opera */
+}
+@keyframes first {
+  from {
+    position: relative;
+    top: -50px;
+  }
+
+  to {
+    position: relative;
+    top: 0;
+  }
+}
+
+.jiathis_style {
+  display: inline-block;
+  margin: 0 6px;
+  position: relative;
+  top: 2px;
+}
+
+.details-middle {
+  text-align: center;
+  color: #676768;
+  margin-top: 20px;
+  animation: second 2s;
+  -moz-animation: second 2s;
+  /* Firefox */
+  -webkit-animation: second 2s;
+  /* Safari 和 Chrome */
+  -o-animation: second 2s;
+  /* Opera */
+}
+@keyframes second {
+  from {
+    position: relative;
+    right: -100px;
+  }
+
+  to {
+    position: relative;
+    right: 0;
+  }
+}
+
+.details-middle span {
+  line-height: 18px;
+}
+
+.details-details {
+  margin-top: 35px;
+  color: #7F8081;
+  animation: thire 2s;
+  -moz-animation: thire 2s;
+  /* Firefox */
+  -webkit-animation: thire 2s;
+  /* Safari 和 Chrome */
+  -o-animation: thire 2s;
+  /* Opera */
+}
+@keyframes thire {
+  from {
+    position: relative;
+    left: -100px;
+  }
+
+  to {
+    position: relative;
+    left: 0;
+  }
+}
+
+.line {
+  display: inline-block;
+  border-right: 1px dotted #ABACAD;
+  height: 18px;
+  position: relative;
+  top: 4px;
+  padding-left: 6px;
+}
+
+.wzbj {
+  padding-left: 6px;
+}
+
+.details-details p {
+  font-size: 18px;
+  line-height: 42px;
+  text-indent: 2rem;
+}
+
+.to-back {
+  width: 240px;
+  height: 60px;
+  border: 1px solid #AAABAC;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  line-height: 58px;
+  margin-top: 80px;
+  position: relative;
+  animation: fouth 2s;
+  -moz-animation: fouth 2s;
+  /* Firefox */
+  -webkit-animation: fouth 2s;
+  /* Safari 和 Chrome */
+  -o-animation: fouth 2s;
+  /* Opera */
+}
+
+.to-back:hover {
+  border: 1px solid #9C121B;
+}
+
+.to-back span {
+  font-size: 16px;
+}
+@keyframes fouth {
+  from {
+    position: relative;
+    bottom: -50px;
+  }
+
+  to {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.icon-arrow-l {
+  width: 12px;
+  height: 20px;
+  top: 20px;
+  left: 76px;
+  background-image: url("../img/details/details.jpg");
+}
+@media screen and (max-width: 1920px) {
+  .details {
+    width: 1220px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .details {
+    width: 1067.5px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .details {
+    width: 1016px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .details {
+    width: 915px;
+    margin: auto;
+  }
+
+  .details-details p {
+    font-size: 16px;
+  }
+
+  .details-title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .details {
+    width: 868px;
+    margin: auto;
+  }
+
+  .to-back {
+    width: 230px;
+    height: 52px;
+    line-height: 52px;
+  }
+
+  .icon-arrow-l {
+    width: 8px;
+    height: 16px;
+    top: 19px;
+    left: 78px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .details {
+    width: 650px;
+    margin: auto;
+  }
+
+  .details-details p {
+    font-size: 14px;
+  }
+
+  .details-title {
+    font-size: 20px;
+  }
+
+  .to-back {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .icon-arrow-l {
+    width: 8px;
+    height: 16px;
+    top: 16px;
+    left: 66px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .details {
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .details-title {
+    font-size: 18px;
+  }
+}

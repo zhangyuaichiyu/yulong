@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>新闻中心</title>
+		<link rel="stylesheet" href="../ui/css/base.css">
+		<link rel="stylesheet" href="../ui/css/public.css">
+		<link rel="stylesheet" href="../ui/css/news.css">
+		<link rel="stylesheet" href="../dep/laypage/laypage.css">
+		<script src="../ui/js/jquery.min.js"></script>
+		<script src="../ui/js/public.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="middle">
+					<div class="top">
+						<img src="../ui/img/logo.png" class="logo" alt="">
+						<img src="../ui/img/title.png" class="img-title" alt="">
+						<div class="search fr">
+							<i class="icon icon-search"></i>
+							<input type="text" placeholder="请输入关键字">
+						</div>
+					</div>
+					<div class="search-menu">
+						<i class="icon icon-search"></i>
+						<span class="index-line"></span>
+						<i class="icon icon-menu"></i>
+					</div>
+					<ul class="menu-list bg-green">
+						<li>
+							<div class="menu-list-title">
+								<a href="../index.html">首页</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="about-us.html">关于玉龙</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="about-us.html">公司介绍</a>
+								<a href="about-us.html">成长足迹</a>
+								<a href="about-us.html">资质荣誉</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="business.html">业务范围</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="business.html">市政环卫</a>
+								<a href="business.html">综合物业</a>
+								<a href="business.html">环保事业</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="classic-case.html">经典案例</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="classic-case.html">市政环卫项目</a>
+								<a href="classic-case.html">综合物业项目</a>
+								<a href="classic-case.html">环保事业项目</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="corporate-culture.html">企业文化</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="corporate-culture.html">员工培训</a>
+								<a href="corporate-culture.html">员工风采</a>
+								<a href="corporate-culture.html">员工心声</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="news.html">新闻中心</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="news.html">企业新闻</a>
+								<a href="news.html">企业公告</a>
+								<a href="news.html">企业资讯</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="recruit.html">招贤纳士</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="recruit.html">人才理念</a>
+								<a href="recruit.html">招聘信息</a>
+								<a href="recruit.html">简历投递</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu-list-title">
+								<a href="cooperation.html">业务合作</a>
+								<i class="icon icon-arrow-t"></i>
+							</div>
+							<div class="menu-desc">
+								<a href="cooperation.html">联系我们</a>
+								<a href="cooperation.html">相关链接</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="menu">
+						<li>
+							<a href="../index.html">首页</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="about-us.html">关于玉龙</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="business.html">业务范围</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="classic-case.html">经典案例</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="corporate-culture.html">企业文化</a>
+							<span class="line"></span>
+						</li>
+						<li class="active">
+							<a href="news.html">新闻中心</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="recruit.html">招贤纳士</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="cooperation.html">业务合作</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+			<div class="main">
+				<div class="banner">
+					<div class="banner-item">
+						<p class="item-title">玉龙<span>,</span>让天空更蓝</p>
+						<p class="item-tip">城市越洁净,天空越蓝,玉龙环保为城市洁净而努力</p>
+					</div>
+					<img src="../ui/img/banner.png">
+					<div class="bottom-box">
+						<div class="title1 bg-green">新闻中心</div>
+						<div class="title2 fl">
+							<i class="icon icon-location"></i>
+							<span class="dx">当前位置</span>
+							<span>:</span>
+							<span>
+								<a href="../index.html">玉龙首页</a>
+							</span>
+							<span>></span>
+							<span>新闻中心</span>
+						</div>
+						<div class="title3">
+							<span class="active1">企业新闻</span>
+							<span>企业公告</span>
+							<span>企业资讯</span>
+						</div>
+					</div>
+					<div class="bottom"></div>
+				</div>
+				<div class="news">
+					<div class="title">
+						<p class="zh-title">企业新闻</p>
+						<p class="en-title">CORPORATE&nbsp;NEWS</p>
+					</div>
+					<!-- 数据展示 -->
+					<ul id="dataShow" class="new-list"></ul>
+					<!-- json数据 -->
+					<div id="jsonData" class="hidden">{ "status": true, "data": [{ "img": "../ui/img/news/new.jpg", "time": "2017-05-05", "title": "公司坚持“以质量求生存，以信誉谋发展”的品牌经营理念", "detail":
+						"深圳市清洁行业协会甲级资格服务企业，创办于2002年4月12日，注册资金5500万元，主营业务涵盖“市政环卫、物业清洁、园林绿化、深圳市清洁行业协会甲级资格服务企业，创办于2002年4月12日，注册资金5500万元，主营业务涵盖“市政环卫、物业清洁、园林绿化、PCO有害生物防制和垃圾无害化处理”等方面。公司经过了12年的发展，目前已成为具有全国影响力的环境综合管理服务优秀运营商。公司现有员工5000余人，职业管理团队200余人，在全国范围有：浙江分公司、南昌分公、郑州分公司、合肥分公司、重庆分公司、南宁分公司等几大区域。"
+						}, { "img": "../ui/img/news/new2.jpg", "time": "2017-05-05", "title": "清洁行业要闻：伪造或使用高空作业证等特种作业证罚万元", "detail":
+						"2010年7月1日起，如有企业伪造“蜘蛛人”等特种作业人员的上岗证，或使用伪证让没有特种作业资质的人员“蒙混”上岗，将被处不低于1万、最高3万的罚款。国家安监总局昨天公布经审议通过的《特种作业人员安全技术培训考核管理规定》，将于7月1日起施行。特种作业人员涵盖电工、焊工、高处作业人员即“蜘蛛人”、制冷与空调作业人员等。规定明确“持证上岗”，即取得“特种作业操作证”后，方可上岗作业。" }, { "img": "../ui/img/news/new3.jpg", "time":
+						"2017-05-05", "title": "关于发布我市清洁行业2010年最低收费标准的通知", "detail": "我市2010年最低工资标准日前已公布，并将于7月1日起开始实施。为应对行业用工成本提高及物价通胀给行业造成的冲击，维护行业的整体利益，经研究，现将我市清洁行业2010年最低收费标准调整为：1760元/人•月（不含垃圾清运）。 最低收费标准是各会员单位与客户单位洽谈业务时的报价底线，低于最低收费标准报价即为低于成本报价，可视为恶性竞争，请各会员单位共同遵照执行。" }, {
+						"img": "../ui/img/news/new.jpg", "time": "2017-05-05", "title": "公司坚持“以质量求生存，以信誉谋发展”的品牌经营理念4", "detail":
+						"深圳市清洁行业协会甲级资格服务企业，创办于2002年4月12日，注册资金5500万元，主营业务涵盖“市政环卫、物业清洁、园林绿化、深圳市清洁行业协会甲级资格服务企业，创办于2002年4月12日，注册资金5500万元，主营业务涵盖“市政环卫、物业清洁、园林绿化、PCO有害生物防制和垃圾无害化处理”等方面。公司经过了12年的发展，目前已成为具有全国影响力的环境综合管理服务优秀运营商。公司现有员工5000余人，职业管理团队200余人，在全国范围有：浙江分公司、南昌分公、郑州分公司、合肥分公司、重庆分公司、南宁分公司等几大区域。"
+						}, { "img": "../ui/img/news/new2.jpg", "time": "2017-05-05", "title": "清洁行业要闻：伪造或使用高空作业证等特种作业证罚万元", "detail":
+						"2010年7月1日起，如有企业伪造“蜘蛛人”等特种作业人员的上岗证，或使用伪证让没有特种作业资质的人员“蒙混”上岗，将被处不低于1万、最高3万的罚款。国家安监总局昨天公布经审议通过的《特种作业人员安全技术培训考核管理规定》，将于7月1日起施行。特种作业人员涵盖电工、焊工、高处作业人员即“蜘蛛人”、制冷与空调作业人员等。规定明确“持证上岗”，即取得“特种作业操作证”后，方可上岗作业。" }] }</div>
+					<!-- 分页 -->
+					<div id="pagination"></div>
+				</div>
+			</div>
+			<footer>
+				<div class="footer-top middle">
+					<div class="box">
+						<i class="icon icon-phone"></i>
+						<span class="phone">07555-82400160</span>
+					</div>
+				</div>
+				<div class="footer-main middle">
+					<ul class="footer-main-list">
+						<li>
+							<a href="view/about-us.html" class="footer-main-title">关于玉龙</a>
+							<a href="javascript:void(0);">组织架构</a>
+							<a href="javascript:void(0);">成长足迹</a>
+							<a href="javascript:void(0);">资质荣誉</a>
+						</li>
+						<li>
+							<a href="view/business.html">业务范围</a>
+							<a href="javascript:void(0);">市政环卫</a>
+							<a href="javascript:void(0);">综合业务</a>
+							<a href="javascript:void(0);">环保事业</a>
+						</li>
+						<li>
+							<a href="view/classic-case.html">经典案例</a>
+							<a href="javascript:void(0);">市政环卫项目</a>
+							<a href="javascript:void(0);">综合业务项目</a>
+							<a href="javascript:void(0);">环保事业项目</a>
+						</li>
+						<li>
+							<a href="view/corporate-culture.html">企业文化</a>
+							<a href="javascript:void(0);">员工培训</a>
+							<a href="javascript:void(0);">员工风采</a>
+							<a href="javascript:void(0);">员工心声</a>
+						</li>
+						<li>
+							<a href="view/news.html">新闻中心</a>
+							<a href="javascript:void(0);">企业新闻</a>
+							<a href="javascript:void(0);">企业公告</a>
+							<a href="javascript:void(0);">行业资讯</a>
+						</li>
+						<li>
+							<a href="view/recruit.html">招贤纳士</a>
+							<a href="javascript:void(0);">人才理念</a>
+							<a href="javascript:void(0);">招聘信息</a>
+							<a href="javascript:void(0);">简历投递</a>
+						</li>
+						<li>
+							<a href="view/cooperation.html">业务合作</a>
+							<a href="javascript:void(0);">联系方式</a>
+							<a href="javascript:void(0);">相关链接</a>
+						</li>
+						<li class="qrcode">
+							<img src="../ui/img/code.png">
+							<p>微信扫一扫&nbsp;关注一下</p>
+						</li>
+					</ul>
+					<ul class="footer-main-list1">
+						<li>
+							<div class="footer-main-title">
+								<span class="title">关于玉龙</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">组织架构</a>
+								<a href="javascript:void(0);">成长足迹</a>
+								<a href="javascript:void(0);">资质荣誉</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">业务范围</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">市政环卫</a>
+								<a href="javascript:void(0);">综合业务</a>
+								<a href="javascript:void(0);">环保事业</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">经典案例</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">市政环卫项目</a>
+								<a href="javascript:void(0);">综合业务项目</a>
+								<a href="javascript:void(0);">环保事业项目</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">企业文化</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">员工培训</a>
+								<a href="javascript:void(0);">员工风采</a>
+								<a href="javascript:void(0);">员工心声</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">新闻中心</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">企业新闻</a>
+								<a href="javascript:void(0);">企业公告</a>
+								<a href="javascript:void(0);">行业资讯</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">招贤纳士</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">人才理念</a>
+								<a href="javascript:void(0);">招聘信息</a>
+								<a href="javascript:void(0);">简历投递</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<span class="title">业务合作</span>
+								<i class="icon icon-shu"></i>
+								<i class="icon icon-heng"></i>
+							</div>
+							<div class="footer-desc">
+								<a href="javascript:void(0);">联系方式</a>
+								<a href="javascript:void(0);">相关链接</a>
+							</div>
+						</li>
+						<li>
+							<div class="footer-main-title">
+								<a href="weixin.html">
+									<i class="icon icon-weixin"></i>
+									<span class="title">关注企业</span>
+								</a >
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-bottom bg-green color-white">
+					<div class="middle">
+						<p class="fl">
+							深圳市玉龙环保产业有限公司&nbsp;版权所有&nbsp;[后台管理]&nbsp;粤ICP备123456号
+						</p>
+						<div class="to-top">
+							<span>TOP</span>
+							<i class="icon icon-arrow"></i>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div id="overflow"></div>
+			<div id="overflow-box">
+				<i class="icon icon-close"></i>
+				<div class="overflow-box">
+					<input type="text" placeholder="Search">
+					<i class="icon icon-search-n"></i>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../dep/laypage/laypage.js"></script>
+		<script type="text/javascript">
+			var jsonData = $.parseJSON($('#jsonData').html());
+			var data = jsonData.data;
+			var nums = 3; //每页出现的数量
+			var pages = Math.ceil(data.length / nums); //得到总页数
+			var thisDate = function (curr) {
+				var str = '',
+					last = curr * nums - 1;
+				last = last >= data.length
+					? (data.length - 1)
+					: last;
+				for (var i = (curr * nums - nums); i <= last; i++) {
+					str += '<li>';
+					str += '<img src="' + data[i].img + '" alt="" class="img-new">';
+					str += '<div class="content"><a href="details.html">';
+					str += '<p class="title7">' + data[i].title + '</p>';
+					str += '<p class="detile">' + data[i].detail + '</p>';
+					str += '<p class="time">' + data[i].time + '</p>';
+					str += '<a href="details.html" class="more">MORE></a>';
+					str += '</a></div>';
+					str += '</li>';
+				}
+				return str;
+			};
+			//调用分页
+			laypage({
+				cont: 'pagination',
+				pages: pages,
+				groups: 3,
+				skin: '#00ac43',
+				jump: function (obj) {
+					document.getElementById('dataShow').innerHTML = thisDate(obj.curr);
+				}
+			})
+		</script>
+	</body>
+</html>
